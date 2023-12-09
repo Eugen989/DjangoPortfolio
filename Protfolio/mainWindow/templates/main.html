@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static 'mainWindow/css/main.css' %}">
+        <script src="{% static 'mainWindow/js/script.js' %}" defer></script>
+    </head>
+    <body class="new_body">
+        <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
+            <img src="{% static 'mainWindow/image/dracon_logo.png' %}">
+            <div class="lh-1">
+              <h1 class="h6 mb-0 text-white lh-1">Пртфолио</h1>
+              <small>Разработанное в 2023</small>
+            </div>
+        </div>
+        <main class="container">
+            {% block main_section %}
+            {% endblock %}
+        </main>
+    </body>
+</html>
