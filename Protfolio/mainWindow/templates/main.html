@@ -10,16 +10,45 @@
         <script src="{% static 'mainWindow/js/script.js' %}" defer></script>
     </head>
     <body class="new_body">
-        <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
-            <img src="{% static 'mainWindow/image/dracon_logo.png' %}">
+
+        <header class="d-flex align-items-center text-white bg-purple rounded shadow-sm main_header">
+            <a href="{% url 'home' %}" class="remove_link_decoration">
+                <img src="{% static 'mainWindow/image/dracon_logo.png' %}">
+            </a>
             <div class="lh-1">
-              <h1 class="h6 mb-0 text-white lh-1">Пртфолио</h1>
-              <small>Разработанное в 2023</small>
+                <a href="{% url 'home' %}" class="remove_link_decoration">
+                    <h1 class="h3 mb-0 text-white lh-1">Евгений</h1>
+                </a>
+                <p>Сайт визитка</p>
             </div>
-        </div>
-        <main class="container">
+            <div class="links_for_header">
+                <a href="{% url 'biography' %}" class="header_links"><p>Биография</p></a>
+                <a href="{% url 'portfolio_list' %}" class="header_links"><p>Портфолио</p></a>
+            </div>
+        </header>
+
+
+        <main class="container main_part shadow-sm">
             {% block main_section %}
             {% endblock %}
         </main>
+
+
+        <footer class="row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 my-5 main_footer">
+            <div class="">
+                <h5>Контакты</h5>
+                <div class="footer_div_img">
+                    <a href="#"><img src="{% static 'mainWindow/image/Vk_logo.png' %}" width="60px"></a>
+                    <a href="#"><img src="{% static 'mainWindow/image/TL_logo.png' %}" width="70px"></a>
+                    <a href="#"><img src="{% static 'mainWindow/image/Disc_logo.png' %}" width="70px"></a>
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Адрес</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Телефон</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Почта</a></li>
+                </ul>
+            </div>
+        </footer>
+
     </body>
 </html>
