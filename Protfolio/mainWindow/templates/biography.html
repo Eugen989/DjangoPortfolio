@@ -1,8 +1,8 @@
-{% extends 'main.html' %}
+{% extends 'include/main.html' %}
 {% block main_section %}
     <h3>Немного о себе</h3>
     {% for bio in biography %}
-        <p>{{ bio.text }}</p>
+        <p>{{ bio.text|linebreaks }}</p>
     {% endfor %}
 <!--    <h2>Немного автобиографии</h2>-->
 <!--    <h3>Имя - {{ biography.name }}</h3>-->

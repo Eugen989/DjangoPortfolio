@@ -5,36 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="First commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/include/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoPortfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/biography.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/biography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/main.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.nu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate_this.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/deactivate.nu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip-3.9.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip3.9.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pydoc.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel-3.9.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel3.9.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/wheel3.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +32,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Eugen989"
-  }
-}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,32 +40,27 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ZIwfxFLzxDhi8H6N74Ls1Cn7Xo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Univer/Python/DjangoPortfolio&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\DjangoPortfolio\Protfolio\mainWindow\templates\include" />
       <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow\image" />
       <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow\js" />
       <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow" />
       <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow\css" />
-      <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,6 +82,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />

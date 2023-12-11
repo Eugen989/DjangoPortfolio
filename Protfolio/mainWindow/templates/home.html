@@ -1,8 +1,10 @@
 {% extends 'main.html' %}
 {% block main_section %}
     {% for post in info %}
+    {% spaceless %}
     <h4> {{ post.title }} </h4>
-    <p> {{ post.text }} </p>
+    <p> {{ post.text|linebreaks }} </p>
+    {% endspaceless %}
     {% endfor %}
 <!--    {{ info.0.text }}-->
 {% endblock main_section %}

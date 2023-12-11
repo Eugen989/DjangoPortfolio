@@ -5,6 +5,7 @@ from .models import New
 from .models import Info
 from .models import Biography
 
+
 biography = {
         "name": "Евгений",
         "surname": "Круглик",
