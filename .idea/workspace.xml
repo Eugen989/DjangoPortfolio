@@ -6,24 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="Fourth commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/Protfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/Protfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/image/Disc_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/image/Disc_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/image/TL_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/image/TL_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/image/VK_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/image/VK_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/image/dracon_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/image/dracon_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_1/im_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_1/im_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_1/im_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_1/im_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_1/im_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_1/im_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_2/im_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_2/im_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_2/im_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_2/im_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_2/im_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_2/im_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_3/im_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_3/im_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_3/im_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_3/im_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_3/im_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/static/mainWindow/media/img_3/im_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/include/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/include/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702826431069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fourth commit">
+      <option name="closed" value="true" />
+      <created>1702840268729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702840268729</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
