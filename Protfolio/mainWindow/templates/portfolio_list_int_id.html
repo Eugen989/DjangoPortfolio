@@ -1,0 +1,21 @@
+{% extends 'include/main.html' %}
+{% load static %}
+
+{% block main_section %}
+
+<h3> {{ portfolio.title }} </h3>
+
+    {% spaceless %}
+    <div>
+        <p>{{ portfolio.text|linebreaks }}</p>
+    </div>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+    {% for sr in src_text %}
+        <img style="margin-top: 20px;
+        width: 300px;
+        height: 255px;
+        margin-left: 20px" src="{% static sr %}">
+    {% endfor %}
+    </div>
+    {% endspaceless %}
+{% endblock main_section %}
