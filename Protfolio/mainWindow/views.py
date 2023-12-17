@@ -1,3 +1,4 @@
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseServerError, HttpResponseBadRequest, HttpResponseForbidden, HttpResponseRedirect
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -77,3 +78,48 @@ def portfolio_str_id(request, portfolio_str):
             "error_text": error_text,
         }
         return render(request, "errors.html", data)
+
+def pageNotFound(request, exception):
+    error_text = "Страница не найдена проверьте адресс."
+    data = {
+        "title": "Ошибка поиска",
+        "error_text": error_text,
+    }
+    return render(request, "errors.html", data)
+    #return HttpResponseNotFound("<h1>  </h1>")
+
+def page_bad_request_400(request, exception):
+    error_text = "Плохой запрос"
+    data = {
+        "title": "Ошибка запроса",
+        "error_text": error_text,
+    }
+    return render(request, "errors.html", data)
+    #return HttpResponseBadRequest("<h1>  </h1>")
+
+def page_forbiden_403(request, exception):
+    error_text = "Такого проекта нету"
+    data = {
+        "title": "Ошибка запроса",
+        "error_text": error_text,
+    }
+    return render(request, "errors.html", data)
+    #return HttpResponseNotFound('<h1>  </h1>')
+
+def page_not_found_404(request, exception):
+    error_text = "Страница не найдена. Проверьте адрес!"
+    data = {
+        "title": "Ошибка поиска",
+        "error_text": error_text,
+    }
+    return render(request, "errors.html", data)
+    #return HttpResponseNotFound('<h1>  </h1>')
+
+def page_server_error_500(exception):
+    error_text = "Во время работы сервера возникли неполадки"
+    data = {
+        "title": "Ошибка cтраницы",
+        "error_text": error_text,
+    }
+    return render("errors.html", data)
+    #return HttpResponseServerError('<h1>  </h1>')
