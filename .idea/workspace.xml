@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/include/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoPortfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/biography.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/biography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/portfolio_list_int_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/portfolio_list_int_id.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +39,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\DjangoPortfolio\Protfolio\mainWindow\templates\include" />
@@ -84,6 +74,21 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
