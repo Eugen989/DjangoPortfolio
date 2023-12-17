@@ -1,11 +1,14 @@
-{% extends 'main.html' %}
+{% extends 'include/main.html' %}
 {% block main_section %}
 
 <h3> Список моих проектов </h3>
 
-<!--    {% for p in portfolio %}-->
-<!--    <div>-->
-<!--        <h1>{{ p.title }}</h1>-->
-<!--    </div>-->
-<!--    {% endfor %}-->
+    {% for p in portfolio %}
+    {% spaceless %}
+    <div>
+        <a href="{% url 'portfolio_int_id' forloop.counter %}"><h5>{{ p.title }}</h5></a>
+<!--        <p>{{ p.text|linebreaks }}</p>-->
+    </div>
+    {% endspaceless %}
+    {% endfor %}
 {% endblock main_section %}

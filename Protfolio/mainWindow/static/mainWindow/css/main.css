@@ -48,3 +48,17 @@
 .remove_link_decoration:hover {
     text-decoration: none;
 }
+
+.div_img_delimer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #000;
+}
+
+.img_delimer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 255px;
+}

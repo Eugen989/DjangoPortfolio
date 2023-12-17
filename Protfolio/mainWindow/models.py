@@ -1,6 +1,8 @@
+import os
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
+from Protfolio.settings import MEDIA_ROOT, BASE_DIR
 
 
 class New(models.Model):
@@ -18,6 +20,9 @@ class Biography(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
 
+
 class Portfolio(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
+    #upload = models.ImageField(upload_to="media/", null=True, blank=True)
+
