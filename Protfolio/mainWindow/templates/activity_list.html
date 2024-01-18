@@ -3,7 +3,7 @@
     <h3>Учебная активность</h3>
     {% for act in activity %}
 <!--        <p>{{ act.title|linebreaks }}</p>-->
-        <p>{{act.link}}</p>
+<!--        <p>{{act.link}}</p>-->
         <a href="{% url 'activity_links' act.link %}"><h5>{{ act.title|linebreaks }}</h5></a>
     {% endfor %}
 

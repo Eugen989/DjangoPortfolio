@@ -7,6 +7,7 @@ from .models import Info
 from .models import Biography
 from .models import Portfolio
 from .models import Activity
+from .models import Activity_item
 
 
 biography = {
@@ -41,13 +42,13 @@ def activity_links(request, activity_link):
     for i in act:
         if i.link == activity_link:
             flag = True
-            zap_link = i.view
+            zap_view = i.view
             break
 
     if(flag):
         new_act = []
         for i in range(act):
-            if i.view == zap_view:
+            if i.activity_view == zap_view:
                 new_act.append(i)
 
         data = {
@@ -57,7 +58,7 @@ def activity_links(request, activity_link):
 
         return render(request, "activity.html", data)
     else:
-        error_text = "Такогой активности у меня нет"
+        error_text = "Такой активности у меня нет"
         data = {
             "title": "Ошибка поиска",
             "error_text": error_text,
