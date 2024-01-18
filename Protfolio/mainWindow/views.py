@@ -5,6 +5,7 @@ from .models import New
 from .models import Info
 from .models import Biography
 from .models import Portfolio
+from .models import Activity
 
 
 biography = {
@@ -24,6 +25,34 @@ def home(request):
     }
     return render(request, "home.html", data)
     #return HttpResponse('<h2>Привет мир!</h2>')
+
+def sheet_activity(request):
+    data = {
+        "title": "Моя учебная активность",
+        "activity": Activity.objects.all(),
+    }
+    return render(request, "activity_list.html", data)
+
+def activity_links(request, activity_link):
+    flag = False
+    act = Activity.objects.all()
+    for i in act:
+        if i.link == activity_link:
+            flag = True
+            break
+    data = {
+        "title": "Моя учебная активность",
+        "activity": Activity.objects.all(),
+    }
+    if(flag):
+        return render(request, "activity_list.html", data)
+    else:
+        error_text = "Такогой активности у меня нет"
+        data = {
+            "title": "Ошибка поиска",
+            "error_text": error_text,
+        }
+        return render(request, "errors.html", data)
 
 def sheet_biography(request):
     data = {

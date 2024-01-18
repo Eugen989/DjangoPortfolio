@@ -15,6 +15,12 @@ class Info(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
 
+class Activity(models.Model):
+    title = models.CharField(max_length=255)
+    text = models.TextField()
+    activity_view = models.CharField(max_length=255)
+    link = models.TextField()
+
 class Biography(models.Model):
     #biography_id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=255)
