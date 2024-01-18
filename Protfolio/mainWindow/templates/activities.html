@@ -1,10 +1,12 @@
 {% extends 'include/main.html' %}
 {% block main_section %}
-    <h3>Немного о себе</h3>
+    <h3>{{title}}</h3>
     {% for act in activity %}
 <!--        <p>{{ act.title|linebreaks }}</p>-->
-        <p>{{act.title}}</p>
-        <p>{{act.view}}</p>
+        <h5><p>{{act.title}}</p></h5>
+        <p>{{act.text}}</p>
+        <img src="{{act.image.url}}" style="width: 250px; height: 300px; margin-bottom: 40px;">
+<!--        <p>{{act.activity_view}}</p>-->
     {% endfor %}
 
 {% endblock main_section %}

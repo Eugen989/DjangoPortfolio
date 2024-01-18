@@ -35,19 +35,19 @@ def sheet_activity(request):
     }
     return render(request, "activity_list.html", data)
 
-def activity_links(request, activity_link):
+def activity_views(request, activity_view):
     flag = False
-    act = Activity.objects.all()
+    act = Activity_item.objects.all()
     zap_view = ""
     for i in act:
-        if i.link == activity_link:
+        if i.activity_view == activity_view:
             flag = True
-            zap_view = i.view
+            zap_view = i.activity_view
             break
 
     if(flag):
         new_act = []
-        for i in range(act):
+        for i in act:
             if i.activity_view == zap_view:
                 new_act.append(i)
 
@@ -56,7 +56,7 @@ def activity_links(request, activity_link):
             "activity": new_act,
         }
 
-        return render(request, "activity.html", data)
+        return render(request, "activities.html", data)
     else:
         error_text = "Такой активности у меня нет"
         data = {
