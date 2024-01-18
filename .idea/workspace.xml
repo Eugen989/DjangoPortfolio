@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="Fourth commit">
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/migrations/0004_portfolio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_1/im_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_1/im_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_1/im_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_2/im_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_2/im_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_2/im_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_3/im_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_3/im_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/static/mainWindow/media/img_3/im_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/errors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/portfolio_list_int_id.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activities.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ZIwfxFLzxDhi8H6N74Ls1Cn7Xo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -95,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702821337116</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fifth commit">
+      <option name="closed" value="true" />
+      <created>1705606458232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705606458232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Fourth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth commit" />
+    <MESSAGE value="Fifth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth commit" />
   </component>
 </project>
