@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="Fifth commit">
+    <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="Fifth warning commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activity_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activity_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +52,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Univer/Python/pythonDjangoGoodSite"
+    "last_opened_file_path": "E:/Univer/Python/DjangoPortfolio"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio" />
+      <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow" />
       <recent name="D:\PycharmProjects\DjangoPortfolio\Protfolio\mainWindow\templates\include" />
       <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow\image" />
       <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow\js" />
-      <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow" />
-      <recent name="E:\Univer\Python\DjangoPortfolio\Protfolio\mainWindow\static\mainWindow\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705606731830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fifth warning commit">
+      <option name="closed" value="true" />
+      <created>1705608071834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705608071834</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +146,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Fourth commit" />
     <MESSAGE value="Fifth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fifth commit" />
+    <MESSAGE value="Fifth warning commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth warning commit" />
   </component>
 </project>
