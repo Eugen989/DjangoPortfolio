@@ -21,6 +21,12 @@ class Activity(models.Model):
     activity_view = models.CharField(max_length=255)
     link = models.TextField()
 
+class Activity_item(models.Model):
+    title = models.CharField(max_length=255)
+    text = models.TextField()
+    activity_view = models.CharField(max_length=255)
+    image = models.ImageField(upload_to='photos/')
+
 class Biography(models.Model):
     #biography_id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=255)

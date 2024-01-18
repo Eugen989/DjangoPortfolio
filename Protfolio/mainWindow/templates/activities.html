@@ -3,8 +3,8 @@
     <h3>Немного о себе</h3>
     {% for act in activity %}
 <!--        <p>{{ act.title|linebreaks }}</p>-->
-        <p>{{act.link}}</p>
-        <a href="{% url 'activity_links' act.link %}"><h5>{{ act.title|linebreaks }}</h5></a>
+        <p>{{act.title}}</p>
+        <p>{{act.view}}</p>
     {% endfor %}
 
 {% endblock main_section %}

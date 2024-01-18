@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="Fourth commit">
+    <list default="true" id="fba56088-9a30-42fa-9e88-2c3e68696cf2" name="Changes" comment="Fifth commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/Protfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activity_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/templates/activity_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protfolio/mainWindow/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Eugen989&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -42,11 +55,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Univer/Python/pythonDjangoGoodSite"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\DjangoPortfolio\Protfolio\mainWindow\templates\include" />
@@ -89,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705606458232</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fifth commit">
+      <option name="closed" value="true" />
+      <created>1705606731830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705606731830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

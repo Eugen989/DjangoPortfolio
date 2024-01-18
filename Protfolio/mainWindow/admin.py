@@ -4,6 +4,7 @@ from .models import Info
 from .models import Biography
 from .models import Portfolio
 from .models import Activity
+from .models import Activity_item
 
 
 
@@ -12,3 +13,4 @@ admin.site.register(Info)
 admin.site.register(Activity)
 admin.site.register(Biography)
 admin.site.register(Portfolio)
+#admin.site.register(Activity_item)
