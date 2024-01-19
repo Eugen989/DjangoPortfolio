@@ -30,7 +30,7 @@ def home(request):
 
 def sheet_activity(request):
     data = {
-        "title": "Моя учебная активность",
+        "title": "Cтуденческая активность",
         "activity": Activity.objects.all(),
     }
     return render(request, "activity_list.html", data)
